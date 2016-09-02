@@ -1,17 +1,22 @@
 var React = require('react');
 
-// var About = React.createClass({
-//   render : function() {
-//     return (
-//       <h3> About Component</h3>
-//     )
-//   }
-// });
 var About = (props) => {
   return (
     <div>
-      <h3>About Page</h3>
-      <p>Welcome to about page.</p>
+      <h1 className="text-center">About Page</h1>
+      <p>This is a weather application build on React. I have bulit this
+        for The Conplete React Web App Developer Course.</p>
+      <p>
+        Here are some of the tools I used:
+      </p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a>
+        </li>
+        <li>
+          <a href="http://openweathermap.org">Open Weather Map</a>
+        </li>
+      </ul>
     </div>
   )
 };
